@@ -1,0 +1,11 @@
+body {
+  background: salmon;
+  display: flex;
+  justify_content: center;
+  align_items: center;
+}
+
+#quote_box {
+  display: flex;
+  bac
+}
