@@ -1,0 +1,63 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: salmon;
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+}
+
+#calculator {
+  display: flex;
+  flex-direction: column;
+  height: 35vw;
+  width: 25vw;
+}
+
+#display {
+  width: 25vw;
+  background-color: beige;
+  color: #18314F;
+  text-align: right;
+  border-radius: 10px 10px 0 0;
+  font-size: 2rem;
+}
+
+#keyboard {
+  display: grid;
+  background-color: beige;
+  height: 75%;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  padding: 10px;
+}
+
+.button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #bc8f8f ;
+  border: 3px solid beige;
+  color: bisque;
+  user-select: none;
+}
+
+#zero {
+  grid-column: span 2; 
+}
+
+.operator {
+  background-color: #21A179;
+}
+
+.special {
+  background-color: salmon;
+}
+
+.number {
+  background-color: #1B98E0;
+}

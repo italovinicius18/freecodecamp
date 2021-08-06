@@ -1,0 +1,69 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: salmon;
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+}
+
+#drum-machine {
+  display: flex;
+  background-color: bisque;
+  justify-content: center;
+  align-items: center;
+  border-radius: 6px;
+  height: 50vh;
+  width: 60vw;
+}
+
+.pads {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  width: 400px;
+  margin-top: 30px;
+  margin-left: 10px;
+}
+
+.drum-pad {
+  display: flex;
+  height: 50%;
+  width: 50%;
+  vertical-align: middle;
+  justify-content: center;
+  align-items: center;
+  background-color: salmon;
+  border-radius: 6px;
+  border: 1px solid salmon;
+  color: white;
+  padding: 15px 15px;
+  margin-bottom: 30px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+}
+
+.noselect {
+  -webkit-touch-callout: none; /* iOS Safari */
+  -webkit-user-select: none; /* Safari */
+  -khtml-user-select: none; /* Konqueror HTML */
+  -moz-user-select: none; /* Old versions of Firefox */
+  -ms-user-select: none; /* Internet Explorer/Edge */
+  user-select: none; /* Non-prefixed version, currently
+                                  supported by Chrome, Edge, Opera and Firefox */
+}
+
+.drum-pad:active {
+  background-color: bisque;
+  border: 1px solid salmon;
+}
+
+#display {
+  flex: 3;
+  text-align: center;
+}

@@ -1,0 +1,79 @@
+html, body {
+  background: salmon;
+  display: flex;
+  height: 100%;
+  justify-content: center;
+  align-items: center;
+}
+
+#quote-box {
+  display: flex;
+  background-color: beige;
+  height: 40vh;
+  width: 42vw;
+  flex-direction: column;
+  border-radius: 15px;
+	border:1px solid #18ab29;
+}
+
+#text_area{
+  height: 25vh;
+  align-items: center;
+  margin-top: 3%;
+}
+
+#text {
+  text-align: center;
+  font-size: 80%;
+  text-align: center;
+  font-family: 'Raleway', sans-serif;
+}
+
+#author {
+  text-align: right;
+  margin-right: 10%;
+  font-family: 'Raleway', sans-serif;
+}
+
+#buttons_area {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 5%;
+}
+
+#share_buttons {
+  justify-content: space-around;
+}
+
+#random_button_area {
+  margin-left: 20%;
+}
+
+a {
+  color: red;
+  text-decoration: none;
+  text-transform: uppercase;
+  margin-right: 1%;
+}
+
+.myButton {
+	background-color:salmon;
+	border-radius:28px;
+	border:1px solid #18ab29;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:15px;
+	padding:10px 20px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #2f6627;
+}
+.myButton:hover {
+	background-color: #FFC300 ;
+}
+.myButton:active {
+	position:relative;
+	top:1px;
+}
